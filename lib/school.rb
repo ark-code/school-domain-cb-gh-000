@@ -7,8 +7,6 @@ class School
   end
   
   def add_student(name, id)
-    @name = name
-    @id = id 
     @roster[id] = []
     @roster[id] << name
   end
